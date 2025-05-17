@@ -1,0 +1,214 @@
+/* HOMEPAGE CSS */
+  /* Features */
+  .features-section {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .features-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .features-list li {
+    background: linear-gradient(90deg, #00e1ff, #4ca1af);
+    color: #333;
+    margin: 10px auto;
+    padding: 12px;
+    border-radius: 8px;
+    width: 70%;
+    font-size: 18px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Upload Box */
+  .upload-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    margin-bottom: 60px;
+  }
+  
+  .upload-box {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 320px;
+    transition: all 0.3s ease;
+  }
+  
+  .upload-box:hover {
+    transform: scale(1.02);
+  }
+  
+  .upload-box input[type="file"] {
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .upload-box button {
+    background: linear-gradient(90deg, #00e1ff, #4ca1af);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .upload-box button:hover {
+    background: #3b8c99;
+  }
+/* HOMEPAGE CSS */
+
+
+/* LOGIN PAGE CSS STARTS */ 
+  .login-main-wrapper {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+  
+  .login-box-unique {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 30px 25px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 350px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px);
+    color: black;
+  }
+  
+  .login-box-unique h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .login-box-unique input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+  }
+  
+  .login-box-unique input::placeholder {
+    text-align: center;
+  }
+  
+  .login-box-unique input:focus {
+    outline: none;
+    border: 1px solid #4ca1af;
+  }
+  
+  .login-box-unique button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4ca1af;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .login-box-unique button:hover {
+    background-color: #3b8c99;
+  }
+  
+  .login-links {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .login-links a {
+    color: black;
+    font-size: 13px;
+    text-decoration: none;
+  }
+  
+  .login-links a:hover {
+    text-decoration: underline;
+  }
+/* LOGIN PAGE CSS ENDS   */
+
+
+/* FAQ PAGE CSS STARTS */
+.faq-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    text-align: left;
+  }
+  
+  .faq-container h1 {
+    text-align: center;
+  }
+  
+  .faq-item {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    backdrop-filter: blur(10px);
+  }
+  
+  .faq-item h3 {
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  .faq-item p {
+    display: none;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  /* FAQ PAGE CSS ENDS */
+
+
+  /* ABOUT PAGE CSS STARTS */
+.about-container {
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .about-container h1,
+  .about-container h2 {
+    text-align: center;
+  }
+  
+  .about-container p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .team-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .team-list li {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+    /* ABOUT PAGE CSS STARTS */
