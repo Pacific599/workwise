@@ -1,8 +1,3 @@
-Here’s a professional and detailed README.md file for your WorkWise AI project. You can paste this directly into your GitHub repository.
-
-
----
-
 # WorkWise AI
 
 **WorkWise AI** is a web-based tool that helps job seekers analyze job offer letters. It allows users to upload offer documents (PDF, DOC, DOCX), extracts the text, summarizes key points using AI (Cohere API), and detects crucial employment clauses like bond period, notice period, salary, and more.
