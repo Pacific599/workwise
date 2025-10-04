@@ -150,5 +150,5 @@ License
 
 MIT License (or update as needed)
 
-Let me know if you’d like this exported as a PDF or if you want to include screenshots or badges for GitHub.
+
 
